@@ -1,0 +1,20 @@
+Testar:
+    - Classes;
+    - Métodos;
+Roteiro:
+    - Arrange;
+    - Act;
+    - Assert;
+Unitário:
+    - Só é unitário se APENAS um resultado esperado;
+
+def test_soma(self):
+    calculadora = Calculadora()
+    resultado = calculadora.somar(2, 3)
+    self.assertEqual(5, resultado)
+
+- API => Teste de Integração;
+
+- Mockar testes: lembrar da turbina do avião;
+
+- Comando para rodar: python -m unittest -v
