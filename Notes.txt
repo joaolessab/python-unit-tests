@@ -6,7 +6,7 @@ Roteiro:
     - Act;
     - Assert;
 Unitário:
-    - Só é unitário se APENAS um resultado esperado;
+    - Só é unitário se APENAS um resultado falhou;
 
 def test_soma(self):
     calculadora = Calculadora()
@@ -18,3 +18,7 @@ def test_soma(self):
 - Mockar testes: lembrar da turbina do avião;
 
 - Comando para rodar: python -m unittest -v
+
+TDD: Test Drive Development
+Fluxo: Red, Green, Refactor
+Fluxo: Test Fails, Test Passes, Refactor
