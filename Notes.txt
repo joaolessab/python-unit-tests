@@ -22,3 +22,6 @@ def test_soma(self):
 TDD: Test Drive Development
 Fluxo: Red, Green, Refactor
 Fluxo: Test Fails, Test Passes, Refactor
+
+Mocks:
+ python -m unittest -v "test_fizzbuzz"
