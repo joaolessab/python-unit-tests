@@ -2,6 +2,14 @@ import unittest
 import fizzbuzz
 
 class TestFizzbuzz(unittest.TestCase):
-    
-    def teste_lista_numero_1_100(self):
-        fizzbuzz.lista_numero_1_100()
+    def test_greater_than_zero(self):
+        value = fizzbuzz.is_fizzbuzz(1)
+        self.assertTrue(value)
+
+    def test_lower_than_a_hundred(self):
+        value = fizzbuzz.is_fizzbuzz(100)
+        self.assertTrue(value)
+
+    def test_valid_interval(self):
+        value = fizzbuzz.is_fizzbuzz(0)
+        self.assertFalse(0)
