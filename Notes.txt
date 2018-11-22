@@ -25,3 +25,10 @@ Fluxo: Test Fails, Test Passes, Refactor
 
 Mocks:
  python -m unittest -v "test_fizzbuzz"
+
+Mocks:
+- Dummy object: null
+- Test Stub: valores hardcoded
+- Test Spy: espião que verifica quantas vezes método ou algo foi chamado
+- Mock Object: Objeto específico, poderoso, que faz tudo, lógica de produção
+- Fake Object: Quase 1 Stub, mas ele tem 1 lógica por trás
