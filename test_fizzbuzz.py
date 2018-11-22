@@ -13,3 +13,7 @@ class TestFizzbuzz(unittest.TestCase):
     def test_valid_interval(self):
         value = fizzbuzz.is_fizzbuzz(0)
         self.assertFalse(0)
+
+    def test_dividing_3(self):
+        value = fizzbuzz.is_fizzbuzz(15)
+        self.assertTrue(value)
