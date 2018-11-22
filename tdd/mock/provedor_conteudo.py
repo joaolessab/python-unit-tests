@@ -1,0 +1,2 @@
+def obter():
+    pass

@@ -4,8 +4,10 @@ import contar
 
 class TestContar(unittest.TestCase):
 
-    def teste_deve_contar_caracteres(self):
-        tamanho = contar.contar_caracter("1234567890")
+    @patch("contar.provedor_conteudo.obter")
+    def teste_deve_contar_caracteres(self, provedor_mock):
+        provedor_mock.return_value = "1234567890"
+        tamanho = contar.contar_caracter()
 
         self.assertEqual(10, tamanho)
 
