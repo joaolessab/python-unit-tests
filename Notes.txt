@@ -32,3 +32,15 @@ Mocks:
 - Test Spy: espião que verifica quantas vezes método ou algo foi chamado
 - Mock Object: Objeto específico, poderoso, que faz tudo, lógica de produção
 - Fake Object: Quase 1 Stub, mas ele tem 1 lógica por trás
+
+SOLID:
+- Código testável;
+- Baixo acomplamento;
+- Alta coesão;
+- Confiabilidade;
+
+Single responsibility principle = módulos e classes devem ter 1 e apenas 1 responsabilidade
+Open-closed principle = aberto para extensão, fechado para modificação (ou seja, só deve-se adicionar linhas de código e não modificar)
+Liskov substituion = garantia que o tipo específico se comporta com o genérico
+Interface Segregation Principle = não obrigar a implementar o que não utiliza, divida (Esponja anda? Gato anda)
+Dependency inversion principle = dependa de tipos genéricos
