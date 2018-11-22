@@ -4,7 +4,13 @@ import contar
 
 class TestContar(unittest.TestCase):
 
-    def teste_deve_retornar_tamanho(self):
+    def teste_deve_contar_caracteres(self):
+        tamanho = contar.contar_caracter("1234567890")
+
+        self.assertEqual(10, tamanho)
+
+
+    """def teste_deve_retornar_tamanho(self):
         # Act
         tamanho = contar.contar_arquivo()
         
@@ -18,4 +24,4 @@ class TestContar(unittest.TestCase):
 
         tamanho = contar.contar_arquivo()
 
-        self.assertEqual(14, tamanho)
+        self.assertEqual(14, tamanho)"""
