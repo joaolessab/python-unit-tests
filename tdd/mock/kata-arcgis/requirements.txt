@@ -1,0 +1,4 @@
+Retornar o nome dos 5 web maps mais acessados
+Utilizar TDD
+Utilizar SOLID
+Utilizar biblioteca 'pip i arcgis'
